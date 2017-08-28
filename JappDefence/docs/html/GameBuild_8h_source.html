@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>JAPP DEFENCE:  File sorgente GameBuild.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">JAPP DEFENCE
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Progetto  Unimore  per  app  in  c++  corso  Programmazione  2.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;dei&#160;file</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">GameBuild.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="GameBuild_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Constants_8h.html">Constants.h</a>&quot;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">struct </span><a class="code" href="structalien.html">alien</a> {</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;  sf::Sprite <a class="code" href="structalien.html#aaac2ddaa1fd6bf0ef4b83004aad99e88">theAlien</a>;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;  std::vector&lt;sf::Vector2f&gt; <a class="code" href="structalien.html#a63c58d02b37a73e25090ba8a45127d5f">alienPath</a>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="structalien.html#aec4346a4a64540077f3b0795570b128e">killed</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  uint <a class="code" href="structalien.html#acf0a624adf1a95214a02ad51cf1f2e31">v_counter</a>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;};</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">struct </span><a class="code" href="structbomb.html">bomb</a> {</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  sf::Sprite theBomb;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keywordtype">bool</span> on;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;};</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">extern</span> std::string <a class="code" href="GameBuild_8h.html#a6412a8884881a87e6095eddb32c1331a">GAME_STATE</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> <a class="code" href="GameBuild_8h.html#a99e947526bc6d7d63a0c35384e1fb41b">NEW_GAME</a>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="GameBuild_8h.html#a729a47503173cf8ce3aea9694d185e76">CURRENT_LEVEL</a>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="GameBuild_8h.html#ac45420dd6285a1f901e204ead783ffea">levelMatrix</a>[][<a class="code" href="classGConst.html#a60718b78d2abce570185be350ba3c50e">GConst::W_DIM</a>];</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">extern</span> sf::Sprite <a class="code" href="GameBuild_8h.html#a397a96e55b78ed4126ed11479b107147">gameTable</a>[<a class="code" href="classGConst.html#a63ca668ad7ec012fcac292088b265222">GConst::H_DIM</a>][<a class="code" href="classGConst.html#a60718b78d2abce570185be350ba3c50e">GConst::W_DIM</a>];</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">extern</span> sf::Sprite <a class="code" href="GameBuild_8h.html#ad56e667012d285f4b655172deebbaf02">theHero</a>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">extern</span> <a class="code" href="structbomb.html">bomb</a> <a class="code" href="GameBuild_8h.html#acef882915b2fbd02f9df6a7bc249d9a8">bombArr</a>[<a class="code" href="classGConst.html#a43e5adf1fb05eb6c664109396e20d9fc">GConst::B_DIM</a>];</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">extern</span> <a class="code" href="structalien.html">alien</a> * <a class="code" href="GameBuild_8h.html#aec06ab908a49862f7e1946c3a6d32e0a">alienArray</a>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="GameBuild_8h.html#aabf65a5cd7b72fd9a89675d55a4409a9">alienDim</a>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="GameBuild_8h.html#a3a677f99166e300831a5a1a866ff38f3">createGameTable</a>();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="GameBuild_8h.html#a116ef4b59fa9b25354fca0e5bb8385f5">drawGameSiblings</a>(sf::RenderWindow &amp;<a class="code" href="main_8cpp.html#a5c4e4cd415811eaf3cabe70c29958aad">App</a>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="GameBuild_8h.html#a19ab356b795cb4c9b8c1baa35440ba4e">loadGameAssets</a>();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="GameBuild_8h.html#af3b5345a15e28d753f562ab59d2a7b06">loadLevel</a>(<span class="keywordtype">int</span> l);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span> <a class="code" href="GameBuild_8h.html#a60f9094f51f16d8a1b6dc6870b0f4f7d">createHero</a>();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span> <a class="code" href="GameBuild_8h.html#afe2caa0ef4aac1f3d54a99cdf5e41a18">createAliens</a>();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span> <a class="code" href="GameBuild_8h.html#a4818ffe194d1c569d602f6a5e23d6f2e">createBombs</a>();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="GameBuild_8h.html#a8426e14ff8c1df4474b35f0ded4e8c99">resetLevel</a>();</div><div class="ttc" id="structbomb_html"><div class="ttname"><a href="structbomb.html">bomb</a></div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:29</div></div>
+<div class="ttc" id="structalien_html_aec4346a4a64540077f3b0795570b128e"><div class="ttname"><a href="structalien.html#aec4346a4a64540077f3b0795570b128e">alien::killed</a></div><div class="ttdeci">bool killed</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:21</div></div>
+<div class="ttc" id="structalien_html_a63c58d02b37a73e25090ba8a45127d5f"><div class="ttname"><a href="structalien.html#a63c58d02b37a73e25090ba8a45127d5f">alien::alienPath</a></div><div class="ttdeci">std::vector&lt; sf::Vector2f &gt; alienPath</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:20</div></div>
+<div class="ttc" id="GameBuild_8h_html_a729a47503173cf8ce3aea9694d185e76"><div class="ttname"><a href="GameBuild_8h.html#a729a47503173cf8ce3aea9694d185e76">CURRENT_LEVEL</a></div><div class="ttdeci">int CURRENT_LEVEL</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:51</div></div>
+<div class="ttc" id="GameBuild_8h_html_a3a677f99166e300831a5a1a866ff38f3"><div class="ttname"><a href="GameBuild_8h.html#a3a677f99166e300831a5a1a866ff38f3">createGameTable</a></div><div class="ttdeci">void createGameTable()</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:160</div></div>
+<div class="ttc" id="GameBuild_8h_html_a60f9094f51f16d8a1b6dc6870b0f4f7d"><div class="ttname"><a href="GameBuild_8h.html#a60f9094f51f16d8a1b6dc6870b0f4f7d">createHero</a></div><div class="ttdeci">void createHero()</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:71</div></div>
+<div class="ttc" id="structalien_html"><div class="ttname"><a href="structalien.html">alien</a></div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:18</div></div>
+<div class="ttc" id="classGConst_html_a63ca668ad7ec012fcac292088b265222"><div class="ttname"><a href="classGConst.html#a63ca668ad7ec012fcac292088b265222">GConst::H_DIM</a></div><div class="ttdeci">static const int H_DIM</div><div class="ttdef"><b>Definition:</b> Constants.h:12</div></div>
+<div class="ttc" id="classGConst_html_a60718b78d2abce570185be350ba3c50e"><div class="ttname"><a href="classGConst.html#a60718b78d2abce570185be350ba3c50e">GConst::W_DIM</a></div><div class="ttdeci">static const int W_DIM</div><div class="ttdef"><b>Definition:</b> Constants.h:13</div></div>
+<div class="ttc" id="structalien_html_acf0a624adf1a95214a02ad51cf1f2e31"><div class="ttname"><a href="structalien.html#acf0a624adf1a95214a02ad51cf1f2e31">alien::v_counter</a></div><div class="ttdeci">uint v_counter</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:22</div></div>
+<div class="ttc" id="GameBuild_8h_html_a4818ffe194d1c569d602f6a5e23d6f2e"><div class="ttname"><a href="GameBuild_8h.html#a4818ffe194d1c569d602f6a5e23d6f2e">createBombs</a></div><div class="ttdeci">void createBombs()</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:105</div></div>
+<div class="ttc" id="Constants_8h_html"><div class="ttname"><a href="Constants_8h.html">Constants.h</a></div></div>
+<div class="ttc" id="GameBuild_8h_html_a19ab356b795cb4c9b8c1baa35440ba4e"><div class="ttname"><a href="GameBuild_8h.html#a19ab356b795cb4c9b8c1baa35440ba4e">loadGameAssets</a></div><div class="ttdeci">void loadGameAssets()</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:57</div></div>
+<div class="ttc" id="GameBuild_8h_html_a6412a8884881a87e6095eddb32c1331a"><div class="ttname"><a href="GameBuild_8h.html#a6412a8884881a87e6095eddb32c1331a">GAME_STATE</a></div><div class="ttdeci">std::string GAME_STATE</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:47</div></div>
+<div class="ttc" id="structalien_html_aaac2ddaa1fd6bf0ef4b83004aad99e88"><div class="ttname"><a href="structalien.html#aaac2ddaa1fd6bf0ef4b83004aad99e88">alien::theAlien</a></div><div class="ttdeci">sf::Sprite theAlien</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:19</div></div>
+<div class="ttc" id="GameBuild_8h_html_acef882915b2fbd02f9df6a7bc249d9a8"><div class="ttname"><a href="GameBuild_8h.html#acef882915b2fbd02f9df6a7bc249d9a8">bombArr</a></div><div class="ttdeci">bomb bombArr[GConst::B_DIM]</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:45</div></div>
+<div class="ttc" id="main_8cpp_html_a5c4e4cd415811eaf3cabe70c29958aad"><div class="ttname"><a href="main_8cpp.html#a5c4e4cd415811eaf3cabe70c29958aad">App</a></div><div class="ttdeci">sf::RenderWindow App</div><div class="ttdef"><b>Definition:</b> main.cpp:13</div></div>
+<div class="ttc" id="classGConst_html_a43e5adf1fb05eb6c664109396e20d9fc"><div class="ttname"><a href="classGConst.html#a43e5adf1fb05eb6c664109396e20d9fc">GConst::B_DIM</a></div><div class="ttdeci">static const int B_DIM</div><div class="ttdef"><b>Definition:</b> Constants.h:16</div></div>
+<div class="ttc" id="GameBuild_8h_html_aabf65a5cd7b72fd9a89675d55a4409a9"><div class="ttname"><a href="GameBuild_8h.html#aabf65a5cd7b72fd9a89675d55a4409a9">alienDim</a></div><div class="ttdeci">int alienDim</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:43</div></div>
+<div class="ttc" id="GameBuild_8h_html_a116ef4b59fa9b25354fca0e5bb8385f5"><div class="ttname"><a href="GameBuild_8h.html#a116ef4b59fa9b25354fca0e5bb8385f5">drawGameSiblings</a></div><div class="ttdeci">void drawGameSiblings(sf::RenderWindow &amp;App)</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:187</div></div>
+<div class="ttc" id="GameBuild_8h_html_aec06ab908a49862f7e1946c3a6d32e0a"><div class="ttname"><a href="GameBuild_8h.html#aec06ab908a49862f7e1946c3a6d32e0a">alienArray</a></div><div class="ttdeci">alien * alienArray</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:39</div></div>
+<div class="ttc" id="GameBuild_8h_html_a8426e14ff8c1df4474b35f0ded4e8c99"><div class="ttname"><a href="GameBuild_8h.html#a8426e14ff8c1df4474b35f0ded4e8c99">resetLevel</a></div><div class="ttdeci">void resetLevel()</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:211</div></div>
+<div class="ttc" id="GameBuild_8h_html_afe2caa0ef4aac1f3d54a99cdf5e41a18"><div class="ttname"><a href="GameBuild_8h.html#afe2caa0ef4aac1f3d54a99cdf5e41a18">createAliens</a></div><div class="ttdeci">void createAliens()</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:85</div></div>
+<div class="ttc" id="GameBuild_8h_html_ad56e667012d285f4b655172deebbaf02"><div class="ttname"><a href="GameBuild_8h.html#ad56e667012d285f4b655172deebbaf02">theHero</a></div><div class="ttdeci">sf::Sprite theHero</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:53</div></div>
+<div class="ttc" id="GameBuild_8h_html_ac45420dd6285a1f901e204ead783ffea"><div class="ttname"><a href="GameBuild_8h.html#ac45420dd6285a1f901e204ead783ffea">levelMatrix</a></div><div class="ttdeci">int levelMatrix[][GConst::W_DIM]</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:37</div></div>
+<div class="ttc" id="GameBuild_8h_html_af3b5345a15e28d753f562ab59d2a7b06"><div class="ttname"><a href="GameBuild_8h.html#af3b5345a15e28d753f562ab59d2a7b06">loadLevel</a></div><div class="ttdeci">void loadLevel(int l)</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:122</div></div>
+<div class="ttc" id="GameBuild_8h_html_a99e947526bc6d7d63a0c35384e1fb41b"><div class="ttname"><a href="GameBuild_8h.html#a99e947526bc6d7d63a0c35384e1fb41b">NEW_GAME</a></div><div class="ttdeci">bool NEW_GAME</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:49</div></div>
+<div class="ttc" id="GameBuild_8h_html_a397a96e55b78ed4126ed11479b107147"><div class="ttname"><a href="GameBuild_8h.html#a397a96e55b78ed4126ed11479b107147">gameTable</a></div><div class="ttdeci">sf::Sprite gameTable[GConst::H_DIM][GConst::W_DIM]</div><div class="ttdef"><b>Definition:</b> GameBuild.cpp:35</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

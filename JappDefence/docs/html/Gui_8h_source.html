@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>JAPP DEFENCE:  File sorgente Gui.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">JAPP DEFENCE
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Progetto  Unimore  per  app  in  c++  corso  Programmazione  2.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;dei&#160;file</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Gui.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Gui_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Constants_8h.html">Constants.h</a>&quot;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">extern</span> sf::Sprite <a class="code" href="Gui_8h.html#a36679ea216963f35cef77196987ea6a4">guiVector</a>[<a class="code" href="classGConst.html#ae91727eab443e839219d506548183b46">GConst::GUI_DIM</a>];</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">extern</span> <a class="code" href="classAssetManager.html">AssetManager</a> <a class="code" href="Gui_8h.html#a4c20aaab27fb470ec32ea5aa325700b9">assetMan</a>;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//extern sf::Font theFont; LA RENDO PRIVATA</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//queste sono le funzioni avrei potuto usare una classe ma ho optato per questa versione per rimanere fedele al corso</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Gui_8h.html#ab9e42b0ec1e9c9ffdf1edd5dec1b0ddd">loadBackground</a>();</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Gui_8h.html#ad56fdb5a3dda9fb7e6dbacd2064c69e9">loadGuiElementes</a>();</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Gui_8h.html#a23bdab36a0561f2f902ed16b8dd5abea">loadDesiredFont</a>();</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Gui_8h.html#ae8e4c5f475c34174871c6bee36fa5175">drawGuiSiblings</a>(sf::RenderWindow &amp;<a class="code" href="main_8cpp.html#a5c4e4cd415811eaf3cabe70c29958aad">App</a>);</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Gui_8h.html#ae64ca771fe13377d1d5c67eed3d7c795">drawBackGround</a>(sf::RenderWindow &amp;<a class="code" href="main_8cpp.html#a5c4e4cd415811eaf3cabe70c29958aad">App</a>);</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Gui_8h.html#a02256e9c0f73a64723d30d602786db6c">updateLevel</a>(<span class="keywordtype">int</span> v);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Gui_8h.html#a96c45b4f4a2457ae9ccded49d5aeb89c">updateAliens</a>(<span class="keywordtype">int</span> a);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Gui_8h.html#ad40571b5f12502b855986cfce2b4d4b1">updateBombs</a>(<span class="keywordtype">int</span> b);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Gui_8h.html#a1f72223752d688f09af68fb5080bd141">updateEndScreen</a>(std::string str);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;sf::Text <a class="code" href="Gui_8h.html#acf9c965fc37053fb1e4594d92cde8b49">loadGameText</a>(<span class="keyword">const</span> std::string &amp; str, <span class="keywordtype">int</span> dimensions,  sf::Vector2f pos);</div><div class="ttc" id="Gui_8h_html_a02256e9c0f73a64723d30d602786db6c"><div class="ttname"><a href="Gui_8h.html#a02256e9c0f73a64723d30d602786db6c">updateLevel</a></div><div class="ttdeci">void updateLevel(int v)</div><div class="ttdef"><b>Definition:</b> Gui.cpp:139</div></div>
+<div class="ttc" id="Gui_8h_html_ad40571b5f12502b855986cfce2b4d4b1"><div class="ttname"><a href="Gui_8h.html#ad40571b5f12502b855986cfce2b4d4b1">updateBombs</a></div><div class="ttdeci">void updateBombs(int b)</div><div class="ttdef"><b>Definition:</b> Gui.cpp:160</div></div>
+<div class="ttc" id="Gui_8h_html_a36679ea216963f35cef77196987ea6a4"><div class="ttname"><a href="Gui_8h.html#a36679ea216963f35cef77196987ea6a4">guiVector</a></div><div class="ttdeci">sf::Sprite guiVector[GConst::GUI_DIM]</div><div class="ttdef"><b>Definition:</b> Gui.cpp:9</div></div>
+<div class="ttc" id="Gui_8h_html_a96c45b4f4a2457ae9ccded49d5aeb89c"><div class="ttname"><a href="Gui_8h.html#a96c45b4f4a2457ae9ccded49d5aeb89c">updateAliens</a></div><div class="ttdeci">void updateAliens(int a)</div><div class="ttdef"><b>Definition:</b> Gui.cpp:151</div></div>
+<div class="ttc" id="classAssetManager_html"><div class="ttname"><a href="classAssetManager.html">AssetManager</a></div><div class="ttdef"><b>Definition:</b> AssetManager.h:7</div></div>
+<div class="ttc" id="Gui_8h_html_ae64ca771fe13377d1d5c67eed3d7c795"><div class="ttname"><a href="Gui_8h.html#ae64ca771fe13377d1d5c67eed3d7c795">drawBackGround</a></div><div class="ttdeci">void drawBackGround(sf::RenderWindow &amp;App)</div><div class="ttdef"><b>Definition:</b> Gui.cpp:129</div></div>
+<div class="ttc" id="Constants_8h_html"><div class="ttname"><a href="Constants_8h.html">Constants.h</a></div></div>
+<div class="ttc" id="main_8cpp_html_a5c4e4cd415811eaf3cabe70c29958aad"><div class="ttname"><a href="main_8cpp.html#a5c4e4cd415811eaf3cabe70c29958aad">App</a></div><div class="ttdeci">sf::RenderWindow App</div><div class="ttdef"><b>Definition:</b> main.cpp:13</div></div>
+<div class="ttc" id="Gui_8h_html_a1f72223752d688f09af68fb5080bd141"><div class="ttname"><a href="Gui_8h.html#a1f72223752d688f09af68fb5080bd141">updateEndScreen</a></div><div class="ttdeci">void updateEndScreen(std::string str)</div><div class="ttdef"><b>Definition:</b> Gui.cpp:169</div></div>
+<div class="ttc" id="Gui_8h_html_ae8e4c5f475c34174871c6bee36fa5175"><div class="ttname"><a href="Gui_8h.html#ae8e4c5f475c34174871c6bee36fa5175">drawGuiSiblings</a></div><div class="ttdeci">void drawGuiSiblings(sf::RenderWindow &amp;App)</div><div class="ttdef"><b>Definition:</b> Gui.cpp:105</div></div>
+<div class="ttc" id="Gui_8h_html_ab9e42b0ec1e9c9ffdf1edd5dec1b0ddd"><div class="ttname"><a href="Gui_8h.html#ab9e42b0ec1e9c9ffdf1edd5dec1b0ddd">loadBackground</a></div><div class="ttdeci">void loadBackground()</div><div class="ttdef"><b>Definition:</b> Gui.cpp:21</div></div>
+<div class="ttc" id="classGConst_html_ae91727eab443e839219d506548183b46"><div class="ttname"><a href="classGConst.html#ae91727eab443e839219d506548183b46">GConst::GUI_DIM</a></div><div class="ttdeci">static const int GUI_DIM</div><div class="ttdef"><b>Definition:</b> Constants.h:10</div></div>
+<div class="ttc" id="Gui_8h_html_a4c20aaab27fb470ec32ea5aa325700b9"><div class="ttname"><a href="Gui_8h.html#a4c20aaab27fb470ec32ea5aa325700b9">assetMan</a></div><div class="ttdeci">AssetManager assetMan</div><div class="ttdef"><b>Definition:</b> Gui.cpp:10</div></div>
+<div class="ttc" id="Gui_8h_html_acf9c965fc37053fb1e4594d92cde8b49"><div class="ttname"><a href="Gui_8h.html#acf9c965fc37053fb1e4594d92cde8b49">loadGameText</a></div><div class="ttdeci">sf::Text loadGameText(const std::string &amp;str, int dimensions, sf::Vector2f pos)</div><div class="ttdef"><b>Definition:</b> Gui.cpp:79</div></div>
+<div class="ttc" id="Gui_8h_html_a23bdab36a0561f2f902ed16b8dd5abea"><div class="ttname"><a href="Gui_8h.html#a23bdab36a0561f2f902ed16b8dd5abea">loadDesiredFont</a></div><div class="ttdeci">void loadDesiredFont()</div><div class="ttdef"><b>Definition:</b> Gui.cpp:14</div></div>
+<div class="ttc" id="Gui_8h_html_ad56fdb5a3dda9fb7e6dbacd2064c69e9"><div class="ttname"><a href="Gui_8h.html#ad56fdb5a3dda9fb7e6dbacd2064c69e9">loadGuiElementes</a></div><div class="ttdeci">void loadGuiElementes()</div><div class="ttdef"><b>Definition:</b> Gui.cpp:31</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

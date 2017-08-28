@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>JAPP DEFENCE:  File sorgente AssetManager.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">JAPP DEFENCE
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Progetto  Unimore  per  app  in  c++  corso  Programmazione  2.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;dei&#160;file</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">AssetManager.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="AssetManager_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ASSET_MANAGER_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ASSET_MANAGER_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classAssetManager.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="classAssetManager.html">AssetManager</a></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    std::map&lt;std::string, sf::Texture&gt; textures;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classAssetManager.html#a3f4b2d5128b26894e7bafaa0f398fb62">loadTexture</a>(<span class="keyword">const</span> std::string &amp; name, <span class="keyword">const</span> std::string &amp; filename);</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    sf::Texture &amp; <a class="code" href="classAssetManager.html#ac5c38a2857e551a5bae04a71fef674db">getRef</a>(<span class="keyword">const</span> std::string &amp; texture);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classAssetManager.html#a5659c5649dc553b21eacafa800e5eea6">   25</a></span>&#160;    sf::Font <a class="code" href="classAssetManager.html#a5659c5649dc553b21eacafa800e5eea6">theFont</a>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classAssetManager.html#ac25f63098057592772c97bf64310657a">loadFont</a>(<span class="keyword">const</span> std::string &amp; name);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="comment">//non potro&#39; cancellare texture ma essendo un piccolo progetto non dovrebbero esservi problemi se carico qualche MB di textures al max</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">//inizializzo il Constructor della classe in altri linguaggi si puo&#39; evitare qua non so</span></div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classAssetManager.html#a750ae7b39b633fbb6594443aa3ca704b">   32</a></span>&#160;    <a class="code" href="classAssetManager.html#a750ae7b39b633fbb6594443aa3ca704b">AssetManager</a>() {}</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classAssetManager_html_a5659c5649dc553b21eacafa800e5eea6"><div class="ttname"><a href="classAssetManager.html#a5659c5649dc553b21eacafa800e5eea6">AssetManager::theFont</a></div><div class="ttdeci">sf::Font theFont</div><div class="ttdef"><b>Definition:</b> AssetManager.h:25</div></div>
+<div class="ttc" id="classAssetManager_html_a3f4b2d5128b26894e7bafaa0f398fb62"><div class="ttname"><a href="classAssetManager.html#a3f4b2d5128b26894e7bafaa0f398fb62">AssetManager::loadTexture</a></div><div class="ttdeci">void loadTexture(const std::string &amp;name, const std::string &amp;filename)</div><div class="ttdef"><b>Definition:</b> AssetManager.cpp:12</div></div>
+<div class="ttc" id="classAssetManager_html"><div class="ttname"><a href="classAssetManager.html">AssetManager</a></div><div class="ttdef"><b>Definition:</b> AssetManager.h:7</div></div>
+<div class="ttc" id="classAssetManager_html_ac25f63098057592772c97bf64310657a"><div class="ttname"><a href="classAssetManager.html#ac25f63098057592772c97bf64310657a">AssetManager::loadFont</a></div><div class="ttdeci">void loadFont(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> AssetManager.cpp:35</div></div>
+<div class="ttc" id="classAssetManager_html_ac5c38a2857e551a5bae04a71fef674db"><div class="ttname"><a href="classAssetManager.html#ac5c38a2857e551a5bae04a71fef674db">AssetManager::getRef</a></div><div class="ttdeci">sf::Texture &amp; getRef(const std::string &amp;texture)</div><div class="ttdef"><b>Definition:</b> AssetManager.cpp:28</div></div>
+<div class="ttc" id="classAssetManager_html_a750ae7b39b633fbb6594443aa3ca704b"><div class="ttname"><a href="classAssetManager.html#a750ae7b39b633fbb6594443aa3ca704b">AssetManager::AssetManager</a></div><div class="ttdeci">AssetManager()</div><div class="ttdef"><b>Definition:</b> AssetManager.h:32</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
