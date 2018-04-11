@@ -1,0 +1,44 @@
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo
+Fiorentina;Firenze;/home/badjoker/Pictures/ProjectLogos/basket1.jpg
+Napoli;Napoli;//home/badjoker/Pictures/ProjectLogos/soc4.jpg
+Milan;Milano;/home/badjoker/Pictures/ProjectLogos/tiger.jpg
+Parma;Bologna;no logo

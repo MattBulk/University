@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><LEAGUE>
+	<SPORT ID="Basket Sat Jan 06 16 01 02 CET 2018">Basket</SPORT>
+	<TEAM_NUM>5</TEAM_NUM>
+	<TEAMS><TEAM><NAME>Armani</NAME><TOWN>MIlano</TOWN><LOGO>src/storage/Basket Sat Jan 06 16 01 02 CET 2018/Armani</LOGO></TEAM><TEAM><NAME>Fortitudo</NAME><TOWN>Bologna</TOWN><LOGO>src/storage/Basket Sat Jan 06 16 01 02 CET 2018/Fortitudo</LOGO></TEAM></TEAMS>
+	<CALENDAR ACTIVE="ON">
+		<FIRSTROUND><WEEK id="1"><SQUAD>Fortitudo</SQUAD><SQUAD>Armani</SQUAD><RESULT>0-0</RESULT></WEEK></FIRSTROUND>
+		<SECONDROUND><WEEK id="2"><SQUAD>Armani</SQUAD><SQUAD>Fortitudo</SQUAD><RESULT>0-0</RESULT></WEEK></SECONDROUND></CALENDAR>
+    </LEAGUE>
